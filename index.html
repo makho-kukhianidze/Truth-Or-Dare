@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="my project">
+  <meta name="keywords" content="HTML,CSS,JavaScript">
+  <meta name="author" content="Makho kukhianidze">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Truth or Dare!</title>
+  <link rel="icon" href="assets/icons/m.png" type="image/x-icon">
+
+<body>
+  <!-- Game menu box - Start. -->
+  <div style="text-align: center;margin-top: 28px;">
+    <h1 class="button-30">Truth or Dare!</h1> <a id="menu" href="index.html">
+      <h1 class="button-30">Restart</h1>
+    </a><br>
+    <h3 class="button-30">You must get above 500 points!</h3>
+  </div>
+  <!-- Game menu box - End. -->
+
+  <!-- Players names box - Start. -->
+  <div class="box" id="box">
+    <input class="button-29" type="text" id="playerOne" value="Player one">
+    <input class="button-29" type="text" id="playerTwo" value="Player two">
+    <input class="button-29" type="text" id="playerThree" value="Player three">
+    <input class="button-29" type="text" id="playerFour" value="Player four">
+    <button class="button-29" id="playerNameEnterBtn" onclick="playerNameEnter()">Save</button>
+  </div>
+  <!-- Players names box - End. -->
+
+  <!-- Game board - Start. -->
+  <div class="board">
+    <button class="button-53" id="one">1</button>
+    <button class="button-53" id="two">2</button>
+  </div>
+
+  <div class="center-btn">
+    <button class="button-74" id="btn">Go!</button>
+  </div>
+
+  <div class="board">
+    <button class="button-53" id="three">3</button>
+    <button class="button-53" id="four">4</button>
+  </div>
+  <!-- Game board - End. -->
+
+  <script src="assets/js/truthOrDare.js"></script>
+</body>
+
+</html>
